@@ -7,7 +7,7 @@ import javax.persistence.Id;
 import java.util.List;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-@Entity(name="question")
+//@Entity(name="question")
 public class Question {
     @Id
     String Id;
